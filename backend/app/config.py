@@ -17,6 +17,8 @@ class Settings:
     )
     page_size_default: int = 20
     page_size_max: int = 200
+    # 入井管理：入井规定时长（小时），上报正常但超过该时长仍未登记升井的判超时未升
+    shift_max_hours: int = 12
 
 
 settings = Settings()

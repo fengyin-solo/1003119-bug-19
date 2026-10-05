@@ -16,6 +16,7 @@ const Power = () => import('@/views/power/index.vue')
 const Rescue = () => import('@/views/rescue/index.vue')
 const Training = () => import('@/views/training/index.vue')
 const Shift = () => import('@/views/shift/index.vue')
+const Dutyleger = () => import('@/views/dutyleger/index.vue')
 const Explosive = () => import('@/views/explosive/index.vue')
 const Roadway = () => import('@/views/roadway/index.vue')
 const Monitorstation = () => import('@/views/monitorstation/index.vue')
@@ -41,6 +42,7 @@ const router = createRouter({
     { path: '/rescue', name: 'rescue', component: Rescue },
     { path: '/training', name: 'training', component: Training },
     { path: '/shift', name: 'shift', component: Shift },
+    { path: '/dutyleger', name: 'dutyleger', component: Dutyleger },
     { path: '/explosive', name: 'explosive', component: Explosive },
     { path: '/roadway', name: 'roadway', component: Roadway },
     { path: '/monitorstation', name: 'monitorstation', component: Monitorstation },
